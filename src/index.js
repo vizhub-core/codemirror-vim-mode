@@ -3,14 +3,17 @@
 
 import { keymap, EditorView } from '@codemirror/view';
 import { EditorState, StateEffectType, StateField } from '@codemirror/state';
-import * as cmds from '@codemirror/commands';
-
-const vimify = (cmd) => (view) => cmds[`cursor${cmd}`](view);
+import {
+  cursorCharLeft,
+  cursorLineDown,
+  cursorLineUp,
+  cursorCharRight,
+} from '@codemirror/commands';
 
 export const vimMode = () =>
   keymap.of([
-    { key: 'h', run: vimify('CharLeft') },
-    { key: 'j', run: vimify('LineDown') },
-    { key: 'k', run: vimify('LineUp') },
-    { key: 'l', run: vimify('CharRight') },
+    { key: 'h', run: cursorCharLeft },
+    { key: 'j', run: cursorLineDown },
+    { key: 'k', run: cursorLineUp },
+    { key: 'l', run: cursorCharRight },
   ]);
