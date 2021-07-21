@@ -1,0 +1,32 @@
+{
+  "name": "codemirror-vim-mode",
+  "version": "0.0.1",
+  "description": "Vim Mode for CodeMirror 6",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier {*.*,**/*.*} --single-quote --write",
+    "build": "rollup -c",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vizhub-open-core/codemirror-vim-mode.git"
+  },
+  "keywords": [
+    "Vim",
+    "CodeMirror"
+  ],
+  "author": "Curran Kelleher and contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vizhub-open-core/codemirror-vim-mode/issues"
+  },
+  "homepage": "https://github.com/vizhub-open-core/codemirror-vim-mode#readme",
+  "devDependencies": {
+    "@codemirror/basic-setup": "^0.18.2",
+    "@codemirror/lang-javascript": "^0.18.0",
+    "@rollup/plugin-node-resolve": "^13.0.2",
+    "prettier": "^2.3.2",
+    "rollup": "^2.53.3"
+  }
+}
