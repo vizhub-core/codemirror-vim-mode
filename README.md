@@ -3,6 +3,8 @@ Vim Mode for CodeMirror 6 (work in progress).
 
 See [Kanban](https://github.com/vizhub-open-core/codemirror-vim-mode/projects/1).
 
+This is a community effort. PRs welcome!
+
 Related:
 
  * [GitHub Issue in CodeMirror 6: Vim Mode](https://github.com/codemirror/codemirror.next/issues/79)
