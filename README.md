@@ -1,5 +1,5 @@
 # codemirror-vim-mode
-Vim Mode for CodeMirror 6 (work in progress).
+Vim Mode for CodeMirror 6 (work in progress - just getting started).
 
 Scope of the project:
 
