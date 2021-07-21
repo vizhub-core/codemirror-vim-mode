@@ -13,4 +13,4 @@ This is a community effort. PRs and issues welcome!
 Related:
 
  * [GitHub Issue in CodeMirror 6: Vim Mode](https://github.com/codemirror/codemirror.next/issues/79)
- * [CodeMirror 5 Vim Mode implementation](https://github.com/codemirror/CodeMirror/blob/master/keymap/vim.js)
+ * CodeMirror 5 Vim Mode: [implementation](https://github.com/codemirror/CodeMirror/blob/master/keymap/vim.js), [example](https://codemirror.net/demo/vim.html)
