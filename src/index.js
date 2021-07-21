@@ -1,8 +1,7 @@
 // First iteration by Ben Hormann
 // From https://github.com/codemirror/codemirror.next/issues/79#issuecomment-883750175
 
-import { keymap, EditorView } from '@codemirror/view';
-import { EditorState, StateEffectType, StateField } from '@codemirror/state';
+import { keymap } from '@codemirror/view';
 import {
   cursorCharLeft,
   cursorLineDown,
