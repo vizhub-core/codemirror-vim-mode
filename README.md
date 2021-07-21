@@ -1,9 +1,14 @@
 # codemirror-vim-mode
 Vim Mode for CodeMirror 6 (work in progress).
 
+Scope of the project:
+
+ * Provide the most widely used Vim interactions to _make Vim users feel at home_ in the editor.
+ * The aim is _not_ to implement every single feature that exists in the original Vim.
+
 See [Kanban](https://github.com/vizhub-open-core/codemirror-vim-mode/projects/1).
 
-This is a community effort. PRs welcome!
+This is a community effort. PRs and issues welcome!
 
 Related:
 
