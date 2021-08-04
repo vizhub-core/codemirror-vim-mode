@@ -1,17 +1,18 @@
-# codemirror-vim-mode
+# @codemirror/autocomplete [![NPM version](https://img.shields.io/npm/v/@codemirror/autocomplete.svg)](https://www.npmjs.org/package/@codemirror/autocomplete)
 
-Vim Mode for CodeMirror 6 (work in progress - just getting started).
+[ [**WEBSITE**](https://codemirror.net/6/) | [**DOCS**](https://codemirror.net/6/docs/ref/#autocomplete) | [**ISSUES**](https://github.com/codemirror/codemirror.next/issues) | [**FORUM**](https://discuss.codemirror.net/c/next/) | [**CHANGELOG**](https://github.com/codemirror/autocomplete/blob/main/CHANGELOG.md) ]
 
-Scope of the project:
+This package implements autocompletion for the
+[CodeMirror](https://codemirror.net/6/) code editor.
 
-- Provide the most widely used Vim interactions to _make Vim users feel at home_ in the editor.
-- The aim is _not_ to implement every single feature that exists in the original Vim.
+The [project page](https://codemirror.net/6/) has more information, a
+number of [examples](https://codemirror.net/6/examples/) and the
+[documentation](https://codemirror.net/6/docs/).
 
-See [Kanban](https://github.com/vizhub-open-core/codemirror-vim-mode/projects/1).
+This code is released under an
+[MIT license](https://github.com/codemirror/autocomplete/tree/main/LICENSE).
 
-This is a community effort. PRs and issues welcome!
-
-Related:
-
-- [GitHub Issue in CodeMirror 6: Vim Mode](https://github.com/codemirror/codemirror.next/issues/79)
-- CodeMirror 5 Vim Mode: [implementation](https://github.com/codemirror/CodeMirror/blob/master/keymap/vim.js), [example](https://codemirror.net/demo/vim.html)
+We aim to be an inclusive, welcoming community. To make that explicit,
+we have a [code of
+conduct](http://contributor-covenant.org/version/1/1/0/) that applies
+to communication around the project.
